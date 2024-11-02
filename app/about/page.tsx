@@ -1,5 +1,7 @@
 export const metadata = {
-  title: "About code Wvaluation",
+  title: {
+    absolute: "About code Evaluation",
+  },
 };
 
 export default function About() {
