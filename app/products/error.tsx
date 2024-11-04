@@ -1,5 +1,5 @@
 "use client";
-
+//now error in the base and they still get error of theri childs
 export default function ErrorBoundary({
   error,
   reset,
