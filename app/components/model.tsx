@@ -69,7 +69,8 @@
 "use client";
 import React, { useCallback, useRef, MouseEventHandler } from "react";
 import { useRouter } from "next/navigation";
-import "../styles/globals.css";
+// import "../styles/globals.css";
+import "../../styles/globals.css";
 
 export default function Model({ children }: { children: React.ReactNode }) {
   const overlay = useRef(null);
